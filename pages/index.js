@@ -62,6 +62,7 @@ const Page = () => {
 
 			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
 				<PostWorkCard
+					heading='Last Work'
 					title='Simplitor'
 					image='/images/works/simplitor.png'
 					link='https://github.com/mijel861999/editor-electron'
@@ -70,7 +71,7 @@ const Page = () => {
 					heading='Last Post'
 					title='How I create Simplitor'
 					image='/images/works/simplitorPost.png'
-					link=''
+					link='https://github.com/mijel861999/editor-electron'
 				/>
 			</SimpleGrid>
 
