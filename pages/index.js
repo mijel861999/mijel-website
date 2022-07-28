@@ -2,7 +2,6 @@ import { Image, Icon, Container, Button, Heading, Box, useColorModeValue, Simple
 import { motion } from 'framer-motion'
 import CarouselWorks from '../components/carousel-works'
 import PostWorkCard from '../components/post-work-card'
-import Simplitor from '../public/images/works/simplitor.PNG'
 import {
 	IoLogoTwitter,
 	IoLogoInstagram,

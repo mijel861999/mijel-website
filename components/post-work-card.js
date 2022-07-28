@@ -1,4 +1,4 @@
-import { Box, Heading, Text, Link, Image } from '@chakra-ui/react'
+import { Box, Heading, Link, Image } from '@chakra-ui/react'
 
 const PostWorkCard = ({ heading='Last Work', title, image, link }) => {
 

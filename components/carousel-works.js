@@ -1,11 +1,11 @@
 import { useState, useEffect } from 'react'
-import { Box, Text } from '@chakra-ui/react'
-import { AnimatePresence, motion } from 'framer-motion'
+import { Text } from '@chakra-ui/react'
+import {  motion } from 'framer-motion'
 
 const hola = ['Hello', 'Hola', 'привет', 'Konnichiwa', 'Napaykuyki ']
 
 const CarouselWorks = () => {
-	const [carouselWords, setCarouselWords] = useState(hola)
+	const [carouselWords] = useState(hola)
 	const [counter, setCounter] = useState(0)
 
 	useEffect(()=> {
