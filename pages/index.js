@@ -18,7 +18,7 @@ const Page = () => {
 			>
 				<CarouselWorks />
 			</motion.div>
-			<Heading as='h2' fontSize='2xl'>Hola, soy Mijel</Heading>
+			<Heading as='h2' fontSize='2xl'>Soy Mijel</Heading>
 			<Box
 				bg={useColorModeValue('gray.600', 'gray.900')}
 				color={useColorModeValue('gray.200', 'gray.50')}
