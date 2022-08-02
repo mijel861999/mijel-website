@@ -1,12 +1,13 @@
 import React from 'react'
-import { Container, Heading, SimpleGrid, Section, Text, useColorModeValue } from '@chakra-ui/react'
-import Layout from '../components/layouts/articles'
+import { Heading} from '@chakra-ui/react'
 
 const Works = () => {
 	return (
+		<div>
 				<Heading as="h3" fontSize={20} mb={4}>
 					Trabajos
 				</Heading>
+		</div>
 	)
 }
 
