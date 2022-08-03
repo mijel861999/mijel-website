@@ -24,8 +24,6 @@ const LinkItem = ({ href, path, children }) => {
 		<NextLink href={href}>
 			<Link
 				p={2}
-				bg={active ? ' glassTeal' : undefined}
-				color={active ? '#202023' : inactiveColor}
 			>
 				{ children }
 			</Link>
@@ -48,7 +46,9 @@ const Navbar = props => {
 				<Flex align='center' mr={5}>
 					<ThemeButtonToggle />
 					<Heading as='h1' size='lg' letterSpacing={'tighter'} ml={4}>
-						Mijel
+						<NextLink href='/'>
+							Mijel
+						</NextLink>
 					</Heading>
 				</Flex>
 
@@ -61,7 +61,7 @@ const Navbar = props => {
 					mt={{ base: 4, nmd: 0 }}
 				>
 					<LinkItem href='/works' path={path}>
-						Works
+						Portfolio
 					</LinkItem>	
 					<LinkItem href='/posts' path={path}>
 						Posts
@@ -81,10 +81,10 @@ const Navbar = props => {
 								<NextLink href='/' passHref>
 									<MenuItem as={Link}>About</MenuItem>
 								</NextLink>
-								<NextLink href='/' passHref>
-									<MenuItem as={Link}>Works</MenuItem>
+								<NextLink href='/works' passHref>
+									<MenuItem as={Link}>Portfolio</MenuItem>
 								</NextLink>
-								<NextLink href='/' passHref>
+								<NextLink href='/posts' passHref>
 									<MenuItem as={Link}>Posts</MenuItem>
 								</NextLink>
 							</MenuList>

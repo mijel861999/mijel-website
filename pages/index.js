@@ -55,24 +55,36 @@ const Page = () => {
 				<Button
 					bg={useColorModeValue('#214d34', '#7e1b24')}
 					color={useColorModeValue('gray.200', 'gray.50')}
+					m={2}
 				>
 					Descarga mi C.V
 				</Button>
+				<Link
+					m={2}
+					fontWeight='bold'
+				>
+					<Button
+						border='1px solid'
+					>
+						Trabaja conmigo
+					</Button>
+				</Link>
 			</Box>
 
 			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
 				<PostWorkCard
-					heading='Last Work'
+					heading='Last works'
 					title='Simplitor'
 					image='/images/works/simplitor.png'
 					link='https://github.com/mijel861999/editor-electron'
 				/>
 				<PostWorkCard
-					heading='Last Post'
-					title='How I create Simplitor'
-					image='/images/works/simplitorPost.png'
-					link='https://github.com/mijel861999/editor-electron'
+					heading='Last Works'
+					title='Distracker'
+					image='/images/works/distracker.png'
+					link='https://distracker.vercel.app/'
 				/>
+				
 			</SimpleGrid>
 
 			<Heading mt={4} as='h2' fontSize='3xl'>Social Media</Heading>
