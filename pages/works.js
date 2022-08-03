@@ -5,7 +5,7 @@ import Simplitor from '../public/images/works/simplitor.png'
 import Devfinder from '../public/images/works/devfinder.png'
 import Distracker from '../public/images/works/distracker.png'
 import Jdilla from '../public/images/works/jdilla.png'
-import Whysup from '../public/images/works/mensajeria1.jpg'
+import Whysup from '../public/images/works/mensajeria1.png'
 
 const Works = () => {
 	return (
