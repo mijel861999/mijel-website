@@ -1,5 +1,6 @@
 import { Image, Icon, Container, Button, Heading, Box, useColorModeValue, SimpleGrid, Link } from '@chakra-ui/react'
 import { motion } from 'framer-motion'
+import NextLink from 'next/link'
 import CarouselWorks from '../components/carousel-works'
 import PostWorkCard from '../components/post-work-card'
 import {
@@ -9,6 +10,7 @@ import {
 } from 'react-icons/io5'
 
 const Page = () => {
+
 	return (
 		<Container mt={4}>
 			 <motion.div
@@ -52,23 +54,27 @@ const Page = () => {
 			</Box>
 			
 			<Box m={5} textAlign='center'>
-				<Button
-					bg={useColorModeValue('#214d34', '#7e1b24')}
-					color={useColorModeValue('gray.200', 'gray.50')}
-					m={2}
-				>
-					Descarga mi C.V
-				</Button>
-				<Link
-					m={2}
-					fontWeight='bold'
-				>
+				<Link href='https://drive.google.com/file/d/17N-jydmGStG1Xr4_Nn9ybGM0fxesG9qd/view?usp=sharing' isExternal>
 					<Button
-						border='1px solid'
+						bg={useColorModeValue('#214d34', '#7e1b24')}
+						color={useColorModeValue('gray.200', 'gray.50')}
+						m={2}
 					>
-						Trabaja conmigo
+						Descarga mi C.V
 					</Button>
-				</Link>
+				</Link>	
+				<NextLink href='/textMe'>
+					<Link
+						m={2}
+						fontWeight='bold'
+					>
+						<Button
+							border='1px solid'
+						>
+							Trabaja conmigo
+						</Button>
+					</Link>
+				</NextLink>	
 			</Box>
 
 			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
