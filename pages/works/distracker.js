@@ -29,10 +29,6 @@ const Work = () => {
 				</List>
 
 				<WorkImage src='/images/works/distracker.png' alt='Distracker' />
-				<WorkImage src='/images/works/distracker1.png' alt='Distracker' />
-				<WorkImage src='/images/works/distracker2.png' alt='Distracker' />
-				<WorkImage src='/images/works/distracker3.png' alt='Distracker' />
-				<WorkImage src='/images/works/distracker4.png' alt='Distracker' />
 		</Container>
 	)
 }

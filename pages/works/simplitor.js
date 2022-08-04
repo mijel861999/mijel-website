@@ -28,7 +28,6 @@ const Work = () => {
 				</List>
 
 				<WorkImage src='/images/works/simplitor.png' alt='Simplitor' />
-				<WorkImage src='/images/works/simplitor-new.png' alt='Simplitor' />
 				<WorkImage src='/images/works/simplitor-note.png' alt='Simplitor' />
 		</Container>
 	)
