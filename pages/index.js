@@ -79,18 +79,27 @@ const Page = () => {
 
 			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
 				<PostWorkCard
-					heading='Last works'
+					heading='Lastes works'
 					title='Simplitor'
 					image='/images/works/simplitor.png'
-					link='https://github.com/mijel861999/editor-electron'
+					link='https://github.com/mijel861999/simplitor'
 				/>
 				<PostWorkCard
-					heading='Last Works'
+					heading='Lastes Works'
 					title='Distracker'
 					image='/images/works/distracker.png'
 					link='https://distracker.vercel.app/'
 				/>
 				
+			</SimpleGrid>
+
+			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 1]} gap={10}>
+				<PostWorkCard
+					heading='Lastes posts'
+					title='Simplitor'
+					image='/images/posts/1.png'
+					link='https://medium.com/@mijel.dev/simplitor-un-bloc-de-notas-minimalista-a6a577d1e407'
+				/>
 			</SimpleGrid>
 
 			<Heading mt={4} as='h2' fontSize='3xl'>Social Media</Heading>
