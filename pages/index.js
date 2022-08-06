@@ -9,8 +9,6 @@ import {
 	IoLogoGithub
 } from 'react-icons/io5'
 
-import '../styles.css'
-
 const Page = () => {
 
 	return (

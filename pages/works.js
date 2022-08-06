@@ -6,6 +6,7 @@ import Devfinder from '../public/images/works/devfinder.png'
 import Distracker from '../public/images/works/distracker.png'
 import Jdilla from '../public/images/works/jdilla-gallery.png'
 import Whysup from '../public/images/works/mensajeria1.png'
+import Todo from '../public/images/works/todo.png'
 
 const Works = () => {
 	return (
@@ -33,10 +34,16 @@ const Works = () => {
 					</WorkGridItem>
 				</Box>
 				<Box m={4}>
+         <WorkGridItem id='todo' title='Todo' thumbnail={ Todo }>
+						<Text>Todo App</Text>	
+					</WorkGridItem>
+				</Box>
+				<Box m={4}>
          <WorkGridItem id='whysup' title='Whysup' thumbnail={ Whysup }>
 						<Text>Aplicación de mensajería</Text>	
 					</WorkGridItem>
 				</Box>
+				
 			</SimpleGrid>
 		</Container>
 	)
