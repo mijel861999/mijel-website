@@ -54,7 +54,7 @@ const Page = () => {
 			</Box>
 			
 			<Box m={5} textAlign='center'>
-				<Link href='https://drive.google.com/file/d/17N-jydmGStG1Xr4_Nn9ybGM0fxesG9qd/view?usp=sharing' isExternal>
+				<Link href='https://drive.google.com/file/d/1GwzknlX5yv9ztmhZ71vjN6DEHP13LW2-/view?usp=sharing' isExternal>
 					<Button
 						bg={useColorModeValue('#214d34', '#7e1b24')}
 						color={useColorModeValue('gray.200', 'gray.50')}
