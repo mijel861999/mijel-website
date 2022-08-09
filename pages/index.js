@@ -93,12 +93,18 @@ const Page = () => {
 				
 			</SimpleGrid>
 
-			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 1]} gap={10}>
+			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
 				<PostWorkCard
 					heading='Lastes posts'
 					title='Simplitor'
 					image='/images/posts/1.png'
 					link='https://medium.com/@mijel.dev/simplitor-un-bloc-de-notas-minimalista-a6a577d1e407'
+				/>
+				<PostWorkCard
+					heading='Lastes posts'
+					title='Tailwind y Next js'
+					image='/images/posts/2.png'
+					link='https://medium.com/@mijel.dev/c%C3%B3mo-crear-un-proyecto-con-next-js-y-tailwind-css-953fdd422317'
 				/>
 			</SimpleGrid>
 
