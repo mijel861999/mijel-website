@@ -7,12 +7,24 @@ import Distracker from '../public/images/works/distracker.png'
 import Jdilla from '../public/images/works/jdilla-gallery.png'
 import Whysup from '../public/images/works/mensajeria1.png'
 import Todo from '../public/images/works/todo.png'
+import Pomopapp from '../public/images/works/pomopapp.png'
+import Password from '../public/images/works/password.png'
 
 const Works = () => {
 	return (
 		<Container mt={8}>
 			<Heading>Portfolio</Heading>
 			<SimpleGrid columns={[1, 1, 2]} gap={ 6 }>
+				<Box m={4}>
+         <WorkGridItem id='pomopapp' title='Pomopapp' thumbnail={ Pomopapp }>
+						<Text>Aplicación de pomodoro</Text>	
+					</WorkGridItem>
+				</Box>
+				<Box m={4}>
+         <WorkGridItem id='password' title='Password Generator' thumbnail={ Password }>
+						<Text>Aplicación para generar contraseñas</Text>	
+					</WorkGridItem>
+				</Box>
 				<Box m={4}>
          <WorkGridItem id='simplitor' title='Simplitor' thumbnail={ Simplitor }>
 						<Text>Aplicación para edición de texto plano</Text>	
@@ -43,7 +55,6 @@ const Works = () => {
 						<Text>Aplicación de mensajería</Text>	
 					</WorkGridItem>
 				</Box>
-				
 			</SimpleGrid>
 		</Container>
 	)

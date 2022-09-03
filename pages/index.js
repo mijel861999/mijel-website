@@ -80,15 +80,15 @@ const Page = () => {
 			<SimpleGrid w='100%'  alignItems='center' justify='center' textAlign='center' columns={[1, 1, 2]} gap={10}>
 				<PostWorkCard
 					heading='Lastes works'
-					title='Simplitor'
-					image='/images/works/simplitor.png'
-					link='https://github.com/mijel861999/simplitor'
+					title='Pomopapp'
+					image='/images/works/pomopapp.png'
+					link='https://pomopapp-arq.vercel.app/'
 				/>
 				<PostWorkCard
 					heading='Lastes Works'
-					title='Distracker'
-					image='/images/works/distracker.png'
-					link='https://distracker.vercel.app/'
+					title='Password Generator'
+					image='/images/works/password.png'
+					link='https://password-generator-mijel861999.vercel.app/'
 				/>
 				
 			</SimpleGrid>
